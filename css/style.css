@@ -1,0 +1,106 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    /* display: flex;
+            justify-content: center;
+            align-items: center; */
+    width: 100%;
+    height: 100%;
+    background-color: #d1d1d1;
+}
+
+#center {
+    width: 70%;
+    height: 80%;
+    background-color: antiquewhite;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.imageContainer {
+    width: 0;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+
+.imageContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#one {
+    width: 0;
+}
+
+.text {
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 15%;
+    left: -10%;
+    z-index: 1;
+}
+
+.text h1 {
+    color: #fff;
+    font-size: 6vw;
+    position: absolute;
+    top: 100px;
+    /* right: -91px; */
+    /* background-color: red; */
+}
+
+/* custom design */
+#wrapper {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 0;
+    background: black;
+}
+
+#text {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+h1 {
+    font: 4em 'Roboto Slab';
+    line-height: 1.05em;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+
+span {
+    position: relative;
+}
+
+span:nth-child(1) {
+    color: #ed008c;
+}
+
+span:nth-child(2) {
+    color: #ed008c;
+}
+
+#bg {
+    height: 100vh;
+    width: 100%;
+    background: black;
+}
